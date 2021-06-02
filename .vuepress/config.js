@@ -1,5 +1,5 @@
 module.exports = {
-  title: "vuepress-theme-reco",
+  title: "冷酷无情的小胖",
   description: 'A simple and beautiful vuepress blog theme .',
   dest: 'public',
   head: [
@@ -67,9 +67,9 @@ module.exports = {
     // 最后更新时间
     lastUpdated: 'Last Updated',
     // 作者
-    author: 'reco_luan',
+    author: '冷酷无情的小胖',
     // 作者头像
-    authorAvatar: '/avatar.png',
+    authorAvatar: '/avatar.jpg',
     // 备案号
     record: 'xxxx',
     // 项目开始时间
