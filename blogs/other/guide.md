@@ -1,6 +1,10 @@
 ---
 title: vuepress-theme-reco
-date: 2019-04-09
+date: 2021-06-01
+# tags:
+#  - tag1
+categories:
+ -  other
 ---
 
 ![vuepress](https://img.shields.io/badge/vuepress-0.14.8-brightgreen.svg)
@@ -60,4 +64,4 @@ yarn dev
 还是衷心地希望能有更多的朋友参与进来，更快地去完善它。接下来时间允许的情况下，我会开源一款自动生成博客的脚手架，略过配置步骤，直接书写优质内容，这也是我后来逐渐形成的一种信念，就是希望能让这款主题，功能越完善，使用越来越简单。
 
 ## License
-[MIT](https://github.com/recoluan/vuepress-theme-reco/blob/master/LICENSE)
+[MIT](https://github.com/vuepress-reco/vuepress-theme-reco)

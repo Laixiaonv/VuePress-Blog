@@ -1,6 +1,6 @@
 module.exports = {
   title: "冷酷无情的小胖",
-  description: 'A simple and beautiful vuepress blog theme .',
+  description: ' ',
   dest: 'public',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -55,7 +55,7 @@ module.exports = {
         title: 'vuepress-theme-reco',
         desc: 'A simple and beautiful vuepress Blog & Doc theme.',
         avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        link: 'https://vuepress-theme-reco.recoluan.com'
+        link: 'https://github.com/vuepress-reco/vuepress-theme-reco'
       },
     ],
     logo: '/logo.png',
@@ -71,7 +71,7 @@ module.exports = {
     // 作者头像
     authorAvatar: '/avatar.jpg',
     // 备案号
-    record: 'xxxx',
+    // record: 'xxxx',
     // 项目开始时间
     startYear: '2017'
     /**
@@ -95,5 +95,12 @@ module.exports = {
   },
   markdown: {
     lineNumbers: true
+  },
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@alias': './.vuepress/public',
+      }
+    }
   }
 }  
