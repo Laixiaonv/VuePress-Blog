@@ -73,16 +73,16 @@ module.exports = {
     // 备案号
     // record: 'xxxx',
     // 项目开始时间
-    startYear: '2017'
+    startYear: '2017',
     /**
      * 密钥 (if your blog is private)
      */
 
-    // keyPage: {
-    //   keys: ['your password'],
-    //   color: '#42b983',
-    //   lineColor: '#42b983'
-    // },
+    keyPage: {
+      keys: ['2b9cdebb444dbb2fe8380860104f0573'], // 32位的 md5 加密密文, 1.3.0 版本后需要设置为密文
+      color: '#42b983',
+      lineColor: '#42b983'
+    },
 
     /**
      * valine 设置 (if you need valine comment )
