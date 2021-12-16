@@ -11,10 +11,5 @@ home: true
 #   background: '#fff',
 #   borderRadius: '1rem',
 # }
-bgImageStyle: {
-  height: '350px'
-}
-isShowTitleInHome: false
-actionText: Guide
-actionLink: /views/other/guide
+[初级定位](/category/20170306.md)
 ---
